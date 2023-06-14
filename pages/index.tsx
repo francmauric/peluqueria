@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Main from '/components/Main'
+import React from 'react'
+
+import BlogSection from '@/components/BlogSection'
+import Main from '@/components/Main'
 
 const links = [
   { name: 'Open roles', href: '#' },
@@ -75,6 +75,7 @@ export default function Home() {
         </div>
       </div>
       <Main />
+      <BlogSection />
     </div>
   )
 }
